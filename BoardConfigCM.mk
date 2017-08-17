@@ -9,10 +9,10 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_PROVIDES_LIBLIGHT := true
 
 # Recovery
-TARGET_RECOVERY_DEVICE_DIRS += device/samsung/espressowifi
+TARGET_RECOVERY_DEVICE_DIRS += device/samsung/degaswifi
 BOARD_HAS_DOWNLOAD_MODE := true
 LZMA_RAMDISK_TARGETS := recovery
 
 # SELinux
 BOARD_SEPOLICY_DIRS += \
-    device/samsung/espressowifi/sepolicy-custom
+    device/samsung/degaswifi/sepolicy-custom
