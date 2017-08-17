@@ -9,7 +9,7 @@
 | Memory                  | 1.5GB RAM                         |
 | Shipped Android Version | 4.4.2                             |
 | Storage                 | 8/16GB                            |
-| MicroSD                 | Up to 64GB                        |
+| MicroSD                 | Up to 32GB                        |
 | Dimentions              | 7.36 x 4.25 x 0.35 in             |
 | Weight                  | 276 g                             |
 | Display                 | 800 x 1280 pixels                 |
@@ -24,7 +24,7 @@
 
 ```
 #
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
