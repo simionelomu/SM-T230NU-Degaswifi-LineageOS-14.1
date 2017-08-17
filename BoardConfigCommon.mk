@@ -28,13 +28,13 @@ TARGET_NO_BOOTLOADER := true
 TARGET_BOOTLOADER_BOARD_NAME := piranha
 
 # Inline kernel building
-TARGET_KERNEL_SOURCE := kernel/samsung/espresso10
-TARGET_KERNEL_CONFIG := espresso_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/degaswifixx
+TARGET_KERNEL_CONFIG := degaswifixx_defconfig
 BOARD_NAND_PAGE_SIZE := 4096
 BOARD_NAND_SPARE_SIZE := 128
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_BASE := 0x40000000
-BOARD_KERNEL_CMDLINE := androidboot.hardware=espresso
+BOARD_KERNEL_CMDLINE := androidboot.hardware=degaswifixx
 
 # Filesystem
 TARGET_USERIMAGES_USE_EXT4 := true
@@ -70,7 +70,7 @@ WIFI_BAND                        := 802_11_ABG
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/espressowifi/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/degaswifi/bluetooth
 
 # SELinux
 BOARD_SEPOLICY_DIRS += \
@@ -78,5 +78,5 @@ BOARD_SEPOLICY_DIRS += \
 
 # Recovery
 RECOVERY_FSTAB_VERSION := 2
-TARGET_RECOVERY_FSTAB := device/samsung/espressowifi/rootdir/fstab.espresso
+TARGET_RECOVERY_FSTAB := device/samsung/degaswifi/rootdir/fstab.espresso
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
