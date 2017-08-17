@@ -1,0 +1,1 @@
+# SM-T230NU-Degaswifi-LineageOS-14.1
