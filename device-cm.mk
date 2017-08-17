@@ -14,11 +14,11 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/espressowifi
+LOCAL_PATH := device/samsung/degaswifi
 
 # Recovery Ramdisk
 PRODUCT_PACKAGES += \
-    $(LOCAL_PATH)/recovery/root/init.recovery.espresso.rc:recovery/root/init.recovery.espresso.rc
+    $(LOCAL_PATH)/recovery/root/init.recovery.degaswifi.rc:recovery/root/init.recovery.degaswifi.rc
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init.espresso.variant.sh:system/bin/init.espresso.variant.sh
+    $(LOCAL_PATH)/init.degaswifi.variant.sh:system/bin/init.degaswifi.variant.sh
