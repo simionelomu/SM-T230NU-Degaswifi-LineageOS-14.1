@@ -9,7 +9,7 @@
 | Memory                  | 1.5GB RAM                         |
 | Shipped Android Version | 4.4.2                             |
 | Storage                 | 8/16GB                            |
-| MicroSD                 | Up to 32GB                        |
+| MicroSD                 | Up to 64GB                        |
 | Dimentions              | 7.36 x 4.25 x 0.35 in             |
 | Weight                  | 276 g                             |
 | Display                 | 800 x 1280 pixels                 |
